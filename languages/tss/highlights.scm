@@ -19,7 +19,22 @@
 
 ; Attribute selectors
 (attribute_selector
-  (attribute_name) @attribute)
+  (attribute_name) @attribute
+  (attribute_operator) @operator
+  (attribute_value) @string)
+
+; Compound selectors with attribute (quoted selectors)
+(string_selector
+  (compound_selector
+    (attribute_selector
+      (attribute_name) @attribute
+      (attribute_operator) @operator
+      (attribute_value) @string)))
+
+; Base selector inside string
+(string_selector
+  (base_selector
+    (tag_name) @tag))
 
 ; Property names
 (property_name) @property
