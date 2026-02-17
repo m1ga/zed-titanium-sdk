@@ -2,6 +2,13 @@
 
 A Zed Editor extension providing syntax highlighting for Titanium SDK. Currently it supports Alloy TSS files.
 
+<img src="preview.png"/>
+
+## Installation
+
+* Clone the repository
+* `zed: extensions` - `Install Dev Extension` - select cloned folder
+
 ## Features
 
 ### Syntax Highlighting
