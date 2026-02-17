@@ -1,0 +1,4 @@
+name = "Alloy (TSS)"
+grammar = "tss"
+path_suffixes = ["tss"]
+line_comments = [";"]

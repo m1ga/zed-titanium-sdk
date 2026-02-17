@@ -1,0 +1,13 @@
+id = "titanium-snippets"
+name = "Titanium SDK"
+description = "Titanium SDK highlighting for Alloy TSS"
+version = "0.0.1"
+schema_version = 1
+authors = ["Michael Gangolf"]
+repository = "https://github.com/m1ga/zed-titanium-sdk"
+
+languages = ["./languages/tss"]
+
+[grammars.tss]
+repository = "https://github.com/m1ga/tree-sitter-alloy-tss"
+rev = "41e3725d142b62cf12f6637fb3ea0451a124349a"
